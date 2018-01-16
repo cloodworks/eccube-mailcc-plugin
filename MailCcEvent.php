@@ -18,19 +18,19 @@ use Eccube\Event\TemplateEvent;
 
 class MailCcEvent
 {
-    /**
-     * @var \Eccube\Application
-     */
-    private $app;
+  /**
+   * @var \Eccube\Application
+   */
+  private $app;
 
-    public function __construct($app)
-    {
-        $this->app = $app;
-    }
-
-	public function beforeSendMail(EventArgs $event)
+  public function __construct($app)
   {
-		$message = $event->getArgument('message');
+    $this->app = $app;
+  }
+
+  public function beforeSendMail(EventArgs $event)
+  {
+    $message = $event->getArgument('message');
     $bcc = $message->getBcc();
     $message->setCc($bcc);
   }
