@@ -1,0 +1,16 @@
+mail.contact:
+    - [beforeSendMail, NORMAL]
+mail.customer.confirm:
+    - [beforeSendMail, NORMAL]
+mail.customer.complete:
+    - [beforeSendMail, NORMAL]
+mail.customer.withdraw:
+    - [beforeSendMail, NORMAL]
+mail.contact:
+    - [beforeSendMail, NORMAL]
+mail.order:
+    - [beforeSendMail, NORMAL]
+mail.admin.customer.confirm:
+    - [beforeSendMail, NORMAL]
+mail.admin.order:
+    - [beforeSendMail, NORMAL]

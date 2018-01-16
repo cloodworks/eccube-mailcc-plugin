@@ -1,0 +1,4 @@
+name: メールCC
+code: MailCc
+version: 0.0.1
+event: MailCcEvent
