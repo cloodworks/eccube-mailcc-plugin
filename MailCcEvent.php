@@ -12,9 +12,7 @@
 namespace Plugin\MailCc;
 
 use Eccube\Application;
-use Eccube\Common\Constant;
 use Eccube\Event\EventArgs;
-use Eccube\Event\TemplateEvent;
 
 class MailCcEvent
 {
